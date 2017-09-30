@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical">
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:text="接下来软件会让您做出一些选择，以最好地生成判断条件。如果您看不懂，可以什么都不做，直接点击继续。完成后，如果出现误判，可以删除该规则，然后重新创建，更改一些选项。或许您可以将这个软件当作gal来玩玩(误)"/>
+
+</LinearLayout>
+

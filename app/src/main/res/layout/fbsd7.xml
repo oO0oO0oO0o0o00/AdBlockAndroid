@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical">
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:text="已经根据您的选择自动生成了一条屏蔽规则。因为软件的判断逻辑有限，生成的规则可能会不起作用，也可能导致误判，使正常内容无法显示。如果那样，您可以尝试重新生成，更改一些选项。点击完成以保存生成的规则。"/>
+
+</LinearLayout>
+

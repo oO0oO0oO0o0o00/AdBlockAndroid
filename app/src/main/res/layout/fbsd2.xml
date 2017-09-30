@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical">
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:text="自动检测到要屏蔽的内容的位置很可能是固定的，是否可以将它在屏幕上的位置作为判断依据？"/>
+
+	<RadioGroup
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:orientation="vertical"
+		android:id="@+id/fbsd2RadioGroup1">
+
+		<RadioButton
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:id="@+id/fbsd2RadioButton1"
+			android:text="是。位置…大概是固定的吧"/>
+
+		<RadioButton
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:id="@+id/fbsd2RadioButton2"
+			android:text="否。它可能是可以滚动的一部分，比如在选单里"/>
+
+	</RadioGroup>
+
+</LinearLayout>
+

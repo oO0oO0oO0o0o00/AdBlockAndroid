@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:gravity="center"
+	android:orientation="vertical">
+
+	<Switch
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:text="总开关"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:padding="15dp"
+		android:id="@+id/mainSwitch1"/>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:text="更改后，要从多任务栏关闭某应用，才能使它接受更改。"
+		android:paddingLeft="15dp"
+		android:paddingRight="15dp"/>
+
+	<View
+		android:background="?android:attr/dividerVertical"
+		android:layout_height="1dp"
+		android:layout_width="match_parent"/>
+
+	<Switch
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:text="从界面上捕捉新屏蔽项"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:padding="15dp"
+		android:id="@+id/mainSwitch2"/>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:text="如果您在某应用中发现了想要屏蔽的内容，请开启此项。开启后，可以随时按下音量减键，然后点击界面中需要屏蔽的内容，软件将引导您智能创建一条新的屏蔽规则，以屏蔽该内容。"
+		android:paddingLeft="15dp"
+		android:paddingRight="15dp"
+		android:id="@+id/mainTextView1"/>
+
+	<View
+		android:background="?android:attr/dividerVertical"
+		android:layout_height="1dp"
+		android:layout_width="match_parent"/>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:layout_width="match_parent"
+		android:text="管理屏蔽规则..."
+		android:padding="15dp"
+		android:id="@+id/mainTextView2"/>
+
+	<View
+		android:background="?android:attr/dividerVertical"
+		android:layout_height="1dp"
+		android:layout_width="match_parent"/>
+
+	<ScrollView
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent">
+
+		<TextView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/mainTextLog"
+			android:text="[调试]日志显示区\n"/>
+
+	</ScrollView>
+
+</LinearLayout>
+

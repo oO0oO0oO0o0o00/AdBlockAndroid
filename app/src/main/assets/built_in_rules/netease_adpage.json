@@ -1,0 +1,8 @@
+{
+ "rule_name": "网易云闪屏广告",
+ "rule_for": "com.netease.cloudmusic",
+ "rule_content": {
+  "class": "pl.droidsonroids.gif.GifImageView"
+ },
+ "rule_disabled": false
+}

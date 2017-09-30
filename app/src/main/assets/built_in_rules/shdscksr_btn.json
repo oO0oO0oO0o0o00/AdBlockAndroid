@@ -1,0 +1,18 @@
+{
+ "rule_name": "in.zhaoj.sha**r连接按钮",
+ "rule_for": "in.zhaoj.shadowsocksr",
+ "rule_content": {
+  "idchar": "in.zhaoj.shadowsocksr:id\/fab",
+  "class": "android.support.design.widget.FloatingActionButton",
+  "parent": {
+   "class": "com.github.jorgecastilloprz.FABProgressCircle",
+   "children": [
+    {},
+    {
+     "class": "com.github.jorgecastilloprz.progressarc.ProgressArcView"
+    }
+   ]
+  }
+ },
+ "rule_disabled": true
+}

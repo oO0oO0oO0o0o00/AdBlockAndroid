@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical">
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:text="您已经选择了需要屏蔽的内容，为了在今后能让软件从复杂的用户界面当中，精确地自动找出该内容，以实现屏蔽，同时尽可能避免误判导致正常内容无法显示，需要选择适当的判断特征。您打算如何选择特征？"/>
+
+	<RadioGroup
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:orientation="vertical"
+		android:id="@+id/fbs0RadioGroup1">
+
+		<RadioButton
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:text="我是小白，上传相关信息，让软件作者帮我选择(请注意，稍后软件会引导您从待上传资料中删除您的个人隐私，然后才会上传)"
+			android:id="@+id/fbs0RadioButton1"/>
+
+		<RadioButton
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:text="我对安卓系统的UI设计有所了解，知道View、资源ID等都是些什么，尝试自己选择特征"
+			android:id="@+id/fbs0RadioButton2"/>
+
+		<RadioButton
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:text="我是专家，想直接根据界面树，自己编写json格式的特征文件(稍后软件会显示编写规范和示例)"
+			android:id="@+id/fbs0RadioButton3"/>
+
+		<RadioButton
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:text="我想碰碰运气，让软件自己判断"
+			android:id="@+id/fbs0RadioButton4"/>
+
+		<RadioButton
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:text="我是猪，既不想冒泄露隐私的风险上传给作者，也不会自己选择特征，还信不过软件自动判断，想卸载"
+			android:id="@+id/fbs0RadioButton5"/>
+
+	</RadioGroup>
+
+</LinearLayout>
+

@@ -1,0 +1,32 @@
+{
+ "rule_name": "QQ动态搜索框",
+ "rule_for": "com.tencent.mobileqq",
+ "rule_content": {
+  "idchar": "com.tencent.mobileqq:id\/search_box",
+  "class": "android.widget.RelativeLayout",
+  "parent": {
+   "class": "android.widget.LinearLayout",
+   "children": [
+    {}
+   ]
+  },
+  "children": [
+   {
+    "class": "android.widget.Button"
+   },
+   {
+    "class": "android.widget.EditText"
+   },
+   {
+    "class": "android.widget.TextView"
+   },
+   {
+    "class": "android.widget.ImageButton"
+   },
+   {
+    "class": "android.widget.ImageButton"
+   }
+  ]
+ },
+ "rule_disabled": false
+}

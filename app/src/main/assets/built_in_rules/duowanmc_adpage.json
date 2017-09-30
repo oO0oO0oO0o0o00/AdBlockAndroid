@@ -1,0 +1,8 @@
+{
+ "rule_name": "多玩MC盒子首页广告",
+ "rule_for": "com.duowan.groundhog.mctools",
+ "rule_content": {
+  "idchar": "com.duowan.groundhog.mctools:id\/ad_image"
+ },
+ "rule_disabled": true
+}

@@ -1,0 +1,21 @@
+{
+ "rule_name": "[测试]x86手册主页图",
+ "rule_for": "com.sujithprajwal.neeraj.microprocessor",
+ "rule_content": {
+  "idchar": "com.sujithprajwal.neeraj.microprocessor:id\/main_icon",
+  "class": "android.support.v7.widget.AppCompatImageView",
+  "parent": {
+   "class": "android.widget.RelativeLayout",
+   "children": [
+    {},
+    {
+     "class": "android.support.v7.widget.AppCompatButton"
+    },
+    {
+     "class": "android.support.v7.widget.AppCompatTextView"
+    }
+   ]
+  }
+ },
+ "rule_disabled": false
+}

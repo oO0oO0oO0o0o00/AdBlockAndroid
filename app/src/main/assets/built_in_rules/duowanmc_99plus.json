@@ -1,0 +1,21 @@
+{
+ "rule_name": "多玩MC盒子未读数",
+ "rule_for": "com.duowan.groundhog.mctools",
+ "rule_content": {
+  "idchar": "com.duowan.groundhog.mctools:id\/pointicon",
+  "class": "android.support.v7.widget.AppCompatTextView",
+  "parent": {
+   "class": "android.widget.RelativeLayout",
+   "children": [
+    {
+     "class": "android.support.v7.widget.AppCompatImageView"
+    },
+    {
+     "class": "android.support.v7.widget.AppCompatTextView"
+    },
+    {}
+   ]
+  }
+ },
+ "rule_disabled": false
+}

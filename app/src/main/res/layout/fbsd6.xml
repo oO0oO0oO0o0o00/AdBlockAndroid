@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical">
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:text="是否根据该内容的数字ID判断？该方法非常准确，但是应用更新后很可能失效。"/>
+
+	<RadioGroup
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:orientation="vertical"
+		android:id="@+id/fbsd6RadioGroup1">
+
+		<RadioButton
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:id="@+id/fbsd6RadioButton1"
+			android:text="仅使用数字ID"/>
+
+		<RadioButton
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:id="@+id/fbsd6RadioButton2"
+			android:text="使用数字ID和已经选择的其他方法"/>
+
+		<RadioButton
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:id="@+id/fbsd6RadioButton3"
+			android:text="不"/>
+
+	</RadioGroup>
+
+</LinearLayout>
+
